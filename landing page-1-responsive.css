@@ -1,0 +1,157 @@
+
+
+@media screen and (max-width:768px) {
+    .contact-button {
+        display: none;
+    }
+
+    .navbar-box li {
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+
+        border: none;
+    }
+
+    .menu-icon {
+        width: 2rem;
+        height: 2rem;
+        background-color: #fff;
+    }
+
+    /*  company-container */
+   
+
+    .company-grid {
+        width: 324px;
+        height: 100px;
+        padding-right: 2rem;
+        background-color: #F0F0F0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 2rem;
+        border-radius: 10px;
+    }
+
+    .company-logo {
+        padding-left: 2rem;
+    }
+    
+    .feature-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 2rem;
+        margin-top: 1.3rem;
+    }
+    /* .teacher-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+        margin-top: 1.5rem;
+        padding: 40px;
+    } */
+}
+
+@media screen and (max-width:999px) {
+    .section-title {
+        font-size: 2.3rem;
+    }
+
+    .main-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .content-left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .section-description-box {
+        width: 100%;
+    }
+
+    .button-group {
+        justify-content: center;
+    }
+
+    .content-right {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .content-right .image-container {
+        width: 60%;
+    }
+
+    .content-right{
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 12px;
+    }
+    .feature-grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 2rem;
+        margin-top: 1.3rem;
+    }
+    .teacher-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 2rem;
+        margin-top: 1.5rem;
+        padding: 40px;
+    }
+}
+@media screen and (max-width:550px) {
+
+    .content-right {
+        height: 100%;
+
+    }
+
+    .content-right {
+        width: 100%;
+
+    }
+    .main-info .main-title {
+        font-size: 22px;
+        font-weight: bold;
+    
+    }
+    .content-right .image-container {
+        width: 90%;
+
+        border: none;
+        border-radius: 1.225rem;
+        overflow: hidden;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+
+    }
+
+    .company-container .company-title {
+        font-size: 1.6rem;
+    }
+    .company-grid{
+        margin: 0 auto;
+    }
+
+    .feature-grid{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 2rem;
+        margin-top: 1.3rem;
+    }
+    .teacher-grid{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 2rem;
+        margin-top: 1.5rem;
+        padding: 40px;
+    }
+
+}
